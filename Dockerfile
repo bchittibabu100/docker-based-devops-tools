@@ -24,6 +24,7 @@ RUN apt-get update && \
     jq \
     openssl \
     vim \
+    less \
     && rm -rf /var/lib/apt/lists/*
 
 # Install AWS CLI v2
